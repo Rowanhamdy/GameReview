@@ -1,0 +1,76 @@
+.imgback{
+    background-image: url('../images/images001.png');
+   height: 200px;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+    
+}
+/* .navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+} */
+#bg-nav{
+    background-color:#3A497B;
+}
+.head{
+    font-family: "Comic Neue" ,cursive;
+    font-size: 25px;
+    color: aliceblue;
+}
+.head:hover{
+    color: black;
+}
+
+.nav-link{
+    font-family: "Comic Neue" ,cursive;
+   font-size:15px;
+   text-decoration:none solid rgb(0, 153, 204);
+    color: white;
+    font-weight: 400;
+}
+
+.pgs:hover{
+    color: rgb(13, 202, 240);
+}
+
+.card-body h3{
+    font-family: "Comic Neue" ,cursive;
+    font-size: 18px;
+}
+.card-body .btn{
+    font-family: "Comic Neue" ,cursive;
+    font-size: 15px;
+    background-color:#3A497B;
+}
+.card-body button{
+    font-family: "Comic Neue" ,cursive;
+    font-size: 10.5px;
+}
+.card{
+    transition: transform 0.8s ease, box-shadow 0.9s ease, width 0.8s ease;
+    opacity: 0.5;
+   
+    
+}
+.card:hover{
+    
+    transform: scale(1.1) ;
+    opacity: 1;
+}
+/* -----------------------------------------------------------------about----------------------------------------------------------------------------------------------------- */
+
+.details {
+    font-family:"Comic Neue" ,cursive;
+    font-size: 15px;
+    font-weight: 600;
+}
+.content{
+    font-family:"Comic Neue" ,cursive;
+
+}
+.btn-show a{
+    text-decoration: none;
+}
